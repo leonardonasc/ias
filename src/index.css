@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Omori';
+  src: url('./src/fonts/OMORI_GAME2.ttf') format('truetype');
+}
+
+body {
+  /* @apply bg-gradient-to-b from-pink-300 to-pink-200 text-white; */
+  background-image: url('./src/images/bg-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: 'Omori', sans-serif;
+}
