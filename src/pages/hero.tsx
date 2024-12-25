@@ -10,6 +10,7 @@ const dialogues = [
 ];
 
 export default function Hero() {
+  console.log(React)
   const [dialogue, setDialogue] = useState(0);
   const [modalOpen, setModalOpen] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
