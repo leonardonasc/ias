@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import heroImage from '../images/hero.webp';
-import backgroundMusic from '../audio/music.mp3';
+import heroImage from '../../public/images/hero.webp';
+import backgroundMusic from '../../public/audio/music.mp3';
 import { VolumeX, Volume2 } from 'lucide-react';
 import { ImPointRight } from "react-icons/im";
 
