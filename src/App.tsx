@@ -5,7 +5,6 @@ import Yes from './pages/yes'
 import No from './pages/no'
 
 function App() {
-  console.log(React)
   return (
     <>
       <div className='flex flex-col h-screen justify-end'>
